@@ -1,17 +1,22 @@
 body {
 	background: #CEBFA8;
+	display: flex;
+	padding: 24px 64px;
+	flex-direction: column;
+	align-items: center;
+	gap: 43px;
 }
 
 h1 {
 	color: #5E2416;
-	font-family: 'Cinzel', serif;
+	font-family: Cinzel, serif;
 	font-size: 100px;
 	text-align: center;
 }
 
-h2 {
+.scroll-down {
 	color: #5E2416;
-	font-family: 'Cinzel', serif;
+	font-family: Cinzel, serif;
 	font-size: 30px;
 	text-align: center;
 }
@@ -21,4 +26,59 @@ h2 {
 	flex-direction: column;
 	align-items: flex-start;
 	margin: auto;
+}
+
+nav a {
+	color: #5E2416;
+	font-family: Cinzel, serif;
+	font-size: 30px;
+	text-align: center;
+	text-decoration: none;
+}
+
+nav {
+	display: inline-block;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 200px;
+}
+
+.city-name {
+	color: #5E2416;
+	font-family: Cinzel, serif;
+	font-size: 80px;
+	text-align: center;
+}
+
+p {
+	color: #5E2416;
+	font-family: Cinzel, serif;
+	font-size: 20px;
+	text-align: center;
+}
+
+.header-image {
+	display: flex;
+	min-width: 1024px;
+	height: 330px;
+	margin: auto;
+}
+
+.city-header {
+	height: 100%;
+	border-radius: 5px;
+	margin: auto;
+}
+
+.city-name::after {
+	content: "";
+	position: absolute;
+	left: 50%;
+	z-index: -1;
+	height: 50px;
+	min-width: 1024px;
+	transform: translate(-50%, -50%);
+	border-radius: 5px;
+	background: #D8CDBC;
 }
