@@ -58,6 +58,101 @@ p {
 	text-align: center;
 }
 
+.content-container {
+	gap: 40px;
+}
+
+
+
+.backgroun-pic {
+	position: relative;
+	display: flex;
+	min-width: 1000px;
+	margin: auto;
+	max-width: 100%;
+}
+
+.head-image {
+	position: relative;
+	display: flex;
+	min-width: 1024px;
+	margin: auto;
+	max-width: 100%;
+}
+
+
+.head-image::before {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 20%;
+	background: rgb(255 255 255 / 60%);
+	pointer-events: none;
+}
+
+.overlay-text-homepage {
+	position: absolute;
+	bottom: -10%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.city-head {
+	max-height: 100%;
+	border-radius: 5px;
+	margin: auto;
+	width: 100%;
+	display: block;
+}
+
+.city {
+	color: #5e2416;
+	font-family: Cinzel, serif;
+	font-size: 80px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.location {
+	color: #5e2416;
+	font-family: Cinzel, serif;
+	font-size: 20px;
+	text-align: center;
+}
+
+.grid-icon-text {
+	margin-top: 30px;
+	display: flex;
+	align-items: center;
+}
+
+.diamond-icon {
+	margin-right: 20px;
+}
+
+.explore-button {
+	font-family: Cinzel, serif;
+	display: inline-block;
+	padding: 13px 20px;
+	background-color: #6E3426;
+	border-radius: 8px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+}
+
+.button {
+	font-family: Cinzel, serif;
+	display: inline-block;
+	padding: 13px 20px;
+	background-color: #6E3426;
+	border-radius: 8px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+}
 
 .header-image {
 	position: relative;
@@ -180,7 +275,7 @@ p {
 	}
 
 	.city-name {
-		font-size: 35px;
+		font-size: 28px;
 	}
 
 	.header-image {
