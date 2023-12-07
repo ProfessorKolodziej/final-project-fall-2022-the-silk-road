@@ -88,7 +88,7 @@ p {
 	left: 0;
 	width: 100%;
 	height: 20%;
-	background: rgba(255, 255, 255, 0.6);
+	background: rgb(255 255 255 / 60%);
 	pointer-events: none;
 }
 
@@ -109,23 +109,15 @@ p {
 
 .city {
 	color: #5e2416;
-	font-family: Cinzel;
+	font-family: Cinzel, serif;
 	font-size: 80px;
 	text-align: center;
 	font-weight: bold;
 }
 
-p {
-	color: #6E3426;
-	font-family: "Crimson Text";
-	font-size: 22px;
-	text-align: center;
-}
-
-
 .location {
 	color: #5e2416;
-	font-family: Cinzel;
+	font-family: Cinzel, serif;
 	font-size: 20px;
 	text-align: center;
 }
