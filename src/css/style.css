@@ -247,6 +247,14 @@ p {
 		gap: 10px;
 	}
 
+	h1 {
+		font-size: 50px;
+	}
+
+	.backgorund-pic {
+		min-width: 340px;
+	}
+
 	.grid-container {
 		grid-template-columns: repeat(3, 1fr);
 	}
@@ -267,7 +275,7 @@ p {
 	}
 
 	nav a {
-		font-size: 12px;
+		font-size: 20px;
 	}
 
 	nav {
@@ -275,7 +283,15 @@ p {
 	}
 
 	p {
-		font-size: 12px;
+		font-size: 16px;
+	}
+
+	.location {
+		font-size: 18px;
+	}
+
+	.city {
+		font-size: 60px;
 	}
 
 	.city-name {
@@ -320,7 +336,7 @@ p {
 	}
 
 	.city {
-		font-size: 50px;
+		font-size: 60px;
 	}
 
 	p {
