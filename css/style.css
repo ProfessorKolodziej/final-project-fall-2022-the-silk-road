@@ -5,12 +5,68 @@ body {
 	flex-direction: column;
 	align-items: center;
 	gap: 50px;
+	position: relative;
+
 }
+
+
+.container {
+	width: 200%;
+	height: 100vh;
+}
+
+.content {
+	width: 100%;
+	height: 400vh;
+}
+
+
+.lottie-progress {
+	width: 400px;
+	height: 100vh;
+	position: fixed;
+	top: 50%;
+	left: 0;
+	transform: translate(50%, -50%);
+	z-index: 1000
+}
+
+
+
+.fixed-map {
+	position: fixed;
+	top: 50%;
+	left: -1000px;
+
+	/* Initial position off-screen */
+	width: 150px;
+
+	/* Adjust the width of the image */
+	transform: translateY(-50%);
+	transition: left 0.3s ease;
+
+
+}
+
+.fixed-map img {
+	width: 100%;
+	height: 100%;
+	border-radius: 8px;
+
+}
+
+
+.city-content {
+	margin-left: 150px;
+	padding: 20px;
+}
+
+
 
 h1 {
 	color: #5E2416;
 	font-family: Cinzel, serif;
-	font-size: 80px;
+	font-size: 100px;
 	text-align: center;
 }
 
@@ -24,18 +80,8 @@ h1 {
 .background-pic {
 	display: flex;
 	flex-direction: column;
-	max-height: 800px;
-	max-width: 100%;
-	border-radius: 5px;
-	position: relative;
-	min-width: 1000px;
+	align-items: flex-start;
 	margin: auto;
-
-}
-
-.arrow-element {
-	display: flex;
-	text-align: center;
 }
 
 nav a {
@@ -70,6 +116,17 @@ p {
 
 .content-container {
 	gap: 40px;
+}
+
+
+
+.backgroun-pic {
+	position: relative;
+	display: flex;
+	min-width: 1000px;
+	margin: auto;
+	max-width: 100%;
+	height: 400px;
 }
 
 .head-image {
@@ -126,10 +183,16 @@ p {
 	margin-top: 30px;
 	display: flex;
 	align-items: center;
+	justify-content: center;
 }
 
 .diamond-icon {
 	margin-right: 20px;
+}
+
+.button-container {
+	position: relative;
+	margin-top: 100px;
 }
 
 .explore-button {
@@ -141,6 +204,16 @@ p {
 	color: white;
 	text-align: center;
 	text-decoration: none;
+	position: absolute;
+
+	/* Set the position to absolute */
+	bottom: 20px;
+
+	/* Adjust top position as needed */
+	left: 50%;
+
+	/* Center the button horizontally */
+	transform: translateX(-50%);
 }
 
 .button {
@@ -247,12 +320,20 @@ p {
 		gap: 10px;
 	}
 
+	.fixed-map {
+		display: none;
+	}
+
 	h1 {
 		font-size: 50px;
 	}
 
 	.backgorund-pic {
-		min-width: 340px;
+		min-width: 450px;
+	}
+
+	.bg-pic {
+		min-width: 440px;
 	}
 
 	.grid-container {
@@ -291,7 +372,7 @@ p {
 	}
 
 	.city {
-		font-size: 60px;
+		font-size: 40px;
 	}
 
 	.city-name {
@@ -300,6 +381,10 @@ p {
 
 	.header-image {
 		min-width: 360px;
+	}
+
+	.head-image {
+		min-width: 500px;
 	}
 
 	.city-header {
@@ -313,6 +398,10 @@ p {
 	.body {
 		padding: 5px;
 		gap: 30px;
+	}
+
+	.fixed-map {
+		display: none;
 	}
 
 	.h1 {
