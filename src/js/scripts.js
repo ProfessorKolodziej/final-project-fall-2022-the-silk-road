@@ -5,7 +5,7 @@ const scrollbar = Scrollbar.init(document.querySelector(".container"), {
 });
 
 function getScrollPercent(scrollThreshold) {
-	var h = document.documentElement,
+	let h = document.documentElement,
 		b = document.body,
 		st = 'scrollTop',
 		sh = 'scrollHeight';
