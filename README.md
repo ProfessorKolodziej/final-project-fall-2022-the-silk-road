@@ -2,12 +2,14 @@
 
 ## Description
 
-Please add a brief description of your final project here.
+The Silk Road is a historic network of interconnected trade routes. It played an important role in facilitating economic, cultural, political, and religious interactions between the East and West.
+This website aims to make people more aware of history and traditional culture, know more about the landscapes and cultures of different regions, and to embrace multiculturalism. The website can also be a travel itinerary suggestion for young people who are interested in history and culture, since in recent years, tourist routes based on the routes of the traditional Silk Road have become very popular on social media, especially for a 10-day trip or a graduation trip.
 
 ## Project Documentation
 
 - [CM523 Final Project Guidelines &amp; Schedule](https://docs.google.com/document/d/1gvG9_1XYfp5-BVUgCDL9JDaZ3Acm6hHP7lDF3MqXPzY/edit#heading=h.61wsleacz62i)
-- **Final code demo: https://professorkolodziej.github.io/final-project-fall-2022-the-silk-road/** [Update this to show your Github Pages URL](https://professorkolodziej.github.io/cm523-final-project/). The URL will be `https://professorkolodziej.github.io/YOUR-REPOSITORY-NAME/`.
+- **Final code demo: https://professorkolodziej.github.io/final-project-fall-2022-the-silk-road/** 
+[Update this to show your Github Pages URL](https://professorkolodziej.github.io/cm523-final-project/). The URL will be `https://professorkolodziej.github.io/YOUR-REPOSITORY-NAME/`.
 - Add any links to wireframes, mockups, your presentation, etc. here in a list so it is easy for you to find later.
 
 ## How to Use This Repository
