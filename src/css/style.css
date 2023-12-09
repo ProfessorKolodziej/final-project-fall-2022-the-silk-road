@@ -292,7 +292,7 @@ p {
 @media (width <=767px) {
 	body {
 		padding: 5px;
-		gap: 10px;
+		gap: 20px;
 	}
 
 	.fixed-map {
@@ -377,7 +377,7 @@ p {
 @media (width >=768px) and (width <=1023px) {
 	body {
 		padding: 5px;
-		gap: 30px;
+		gap: 35px;
 	}
 
 	.fixed-map {
