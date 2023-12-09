@@ -10,7 +10,8 @@ This website aims to make people more aware of history and traditional culture, 
 - [CM523 Final Project Guidelines &amp; Schedule](https://docs.google.com/document/d/1gvG9_1XYfp5-BVUgCDL9JDaZ3Acm6hHP7lDF3MqXPzY/edit#heading=h.61wsleacz62i)
 - **Final code demo: https://professorkolodziej.github.io/final-project-fall-2022-the-silk-road/** 
 [Update this to show your Github Pages URL](https://professorkolodziej.github.io/cm523-final-project/). The URL will be `https://professorkolodziej.github.io/YOUR-REPOSITORY-NAME/`.
-- Add any links to wireframes, mockups, your presentation, etc. here in a list so it is easy for you to find later.
+-prototype: https://www.figma.com/file/YwCU92oXVfeQx6g1IjqVwW/final-The-Silk-Road?type=design&node-id=4889%3A1715&mode=design&t=MylJBXxxi9s0wFuG-1
+
 
 ## How to Use This Repository
 
